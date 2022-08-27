@@ -1,0 +1,32 @@
+<%- include('includes/header') %>
+<%- include('includes/nav') %>
+<body>
+    <div class="container">
+        <!--Buttom to create excel-->
+        <a class="btn btn-success" href="/excel">Download table in Excel</a>
+
+        <!--Table's structure-->
+        <table class="table table-bordered">
+            <thead>
+                <th colspan="4" scope="colgroup" class="title"><strong>Currencies List</strong></th>
+                <tr class="ColTitle">
+                    <th><strong>Name</strong></th>
+                    <th><strong>Capial</strong></th>
+                    <th><strong>Area</strong></th>
+                    <th><strong>Currency</strong></th>
+                </tr>
+            </thead>    
+                <tbody>
+                    <% data.forEach(d => { %>
+                        <tr>
+                            <td><%= d.name %></td>
+                            <td><%= d.capital %></td>
+                            <td><%= d.area %></td>
+                            <td><%= d.currency %></td>
+                        </tr>
+                    <% }) %>
+                </tbody>
+        </table>         
+    </div>
+</body>
+<%- include('includes/footer') %>

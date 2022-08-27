@@ -1,0 +1,25 @@
+.container {
+    padding: 5px;
+    font-size: 12px;
+}
+
+.title {
+    color: #4F4F4F;
+    font-size: 16px;
+    text-align: center;
+    background-color: #d3d3d3;
+}
+
+.ColTitle {
+    color: #808080;
+    background-color: #d6e3ef;
+}
+
+tbody > tr:nth-child(even) {
+    background-color: #d6e3ef;
+}
+
+.btn {
+
+    margin: 10px 0px;
+}
