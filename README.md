@@ -9,6 +9,8 @@ npm install - Para instalação dos pacotes e bibliotecas utilizado na aplicaç�
 
 npm start - Para execução da aplicação através do nodemon.
 
+Após executar estes dois comandos, entrar no link http://localhost:8081 que aparece no terminal de execução da aplicação 
+
 ## Rotas
 ### GET /
 Esta rota é responsável por fazer o consumo da API EndPoint V3 https://restcountries.com/v3.1/all, tratar os dados importados do EndPoint de acordo com cada país (name, capital, area e currency) e enviar estes dados para a view engine EJS para renderização na homepage da aplicação.
