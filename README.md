@@ -1,7 +1,9 @@
 # Teste-Tunts.Rocks
 Teste de programação como requisito avaliativo para vaga de estágio na empresa Tunts.Rock.
 
-Para realização desta aplicação foi realizado o consumo da API REST https://restcountries.com/#api-endpoints-v3-all e criação de arquivo formato .xlsx com dados importados desta API REST. 
+Para realização desta aplicação foi realizado o consumo da API REST https://restcountries.com/#api-endpoints-v3-all e criação de arquivo formato .xlsx com dados importados desta API REST.
+
+Importante: Instalar extensão Excel Viewer para visualizar arquivo .xlsx dentro do Visual Studio Code.
 ## Instalação e execução da aplicação
 Execultar na seguinte sequência os comandos no terminal da aplicação:  npm install e npm start
 
@@ -9,7 +11,7 @@ npm install - Para instalação dos pacotes e bibliotecas utilizado na aplicaç�
 
 npm start - Para execução da aplicação através do nodemon.
 
-Após executar estes dois comandos, entrar no link http://localhost:8081 que aparece no terminal de execução da aplicação 
+Após executar estes dois comandos, entrar no link http://localhost:8081 que aparece no terminal de execução da aplicação e que corresponde a porta de escuta da aplicação.
 
 ## Rotas
 ### GET /
