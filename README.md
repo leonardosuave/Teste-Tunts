@@ -13,7 +13,7 @@ npm install - Para instalação dos pacotes e bibliotecas utilizado na aplicaç�
 
 npm start - Para execução da aplicação através do nodemon.
 
-Após executar estes dois comandos, entrar no link http://localhost:8081 que aparece no terminal de execução da aplicação e que corresponde a porta de escuta da aplicação.
+Após executar estes dois comandos, entrar no link http://localhost:8081 que aparece no terminal de execução da aplicação e que corresponde a porta de escuta da aplicação através de um navegador de sua preferência.
 
 ## Rotas
 ### GET /
