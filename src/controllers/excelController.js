@@ -13,7 +13,7 @@ exports.createExcel = async (req, res) => {
         let capital = []
         let area = []
         let currencies = []
-        let infoCurrencies = []
+        let infoCountries = []
         let data = [] //To receive data from each country ( {name, capital, area, currencies})
         
         //To consume API
@@ -55,11 +55,11 @@ exports.createExcel = async (req, res) => {
                 currencies.push(Object.keys(infoCurrency))
             }
 
-            infoCurrencies.push(country)//used to find the number of countries
+            infoCountries.push(country)//used to find the number of countries
         })
 
         //To join/build an array with specific datas from each country 
-        for(let c = 0; c <= (infoCurrencies.length) - 1; c++){
+        for(let c = 0; c <= (infoCountries.length) - 1; c++){
             data.push({
                 name: CountryName[c],
                 capital: capital[c],
