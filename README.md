@@ -1,6 +1,8 @@
 # Teste-Tunts.Rocks
 Teste de programação como requisito avaliativo para vaga de estágio na empresa Tunts.Rock.
 
+Esta aplicação foi criada com base em Node.js
+
 Para realização desta aplicação foi realizado o consumo da API REST https://restcountries.com/#api-endpoints-v3-all e criação de arquivo formato .xlsx com dados importados desta API REST.
 
 Importante: Instalar extensão Excel Viewer para visualizar arquivo .xlsx dentro do Visual Studio Code.
